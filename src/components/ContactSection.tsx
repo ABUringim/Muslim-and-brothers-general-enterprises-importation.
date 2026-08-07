@@ -95,17 +95,26 @@ export const ContactSection: React.FC = () => {
               </div>
 
               {/* Ghana & US Numbers */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-                <div className="space-y-1">
-                  <div className="text-[11px] font-bold text-amber-400 uppercase">Ghana Branch:</div>
-                  <a href="tel:+233591841501" className="p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs font-bold text-slate-200 block hover:underline">
+              <div className="space-y-2 pt-2">
+                <div className="text-[11px] font-bold text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
+                  <MapPin className="w-3.5 h-3.5" />
+                  <span>Ghana Branch Lines</span>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  <a href="tel:+233591841501" className="p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs font-bold text-slate-200 block hover:border-amber-500/40">
+                    <span className="block text-[10px] text-amber-400">GM Line:</span>
                     +233 591841501
                   </a>
-                </div>
-
-                <div className="space-y-1">
-                  <div className="text-[11px] font-bold text-amber-400 uppercase">United States Line:</div>
-                  <a href="tel:+19406170970" className="p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs font-bold text-slate-200 block hover:underline">
+                  <a href="tel:+233599319178" className="p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs font-bold text-slate-200 block hover:border-amber-500/40">
+                    <span className="block text-[10px] text-amber-400">CEO Ghana SIM:</span>
+                    +233 599319178
+                  </a>
+                  <a href="tel:+233596008788" className="p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs font-bold text-slate-200 block hover:border-amber-500/40">
+                    <span className="block text-[10px] text-amber-400">Marketing Ghana:</span>
+                    +233 596008788
+                  </a>
+                  <a href="tel:+19406170970" className="p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs font-bold text-slate-200 block hover:border-amber-500/40">
+                    <span className="block text-[10px] text-amber-400">USA Desk:</span>
                     +1 9406170970
                   </a>
                 </div>

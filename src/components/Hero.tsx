@@ -48,7 +48,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuoteModal }) => {
 
             {/* Quick Industry Highlights Pills */}
             <div className="flex flex-wrap gap-2 text-xs text-slate-300 pt-1">
-              {['Import & Export Logistics', 'Real Estate & Properties', 'Building Materials', 'Rice & Spices Supply', 'Travel Consultancy'].map((sector, i) => (
+              {['Import & Export Logistics', 'Dealers of Phones & Devices', 'Textiles & Quality Fabrics', 'Commercial & Industrial Materials', 'Real Estate & Properties', 'Building Materials', 'Rice & Spices Supply', 'Travel Consultancy'].map((sector, i) => (
                 <span key={i} className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-slate-900/80 border border-slate-800 text-slate-300">
                   <CheckCircle2 className="w-3.5 h-3.5 text-amber-400" />
                   {sector}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BUSINESS_SECTORS } from '../data/companyData';
-import { Layers, ArrowUpRight, ShieldCheck, Building2, Anchor, Wheat, Flame, Fish, Plane, ShoppingBag } from 'lucide-react';
+import { Layers, ArrowUpRight, ShieldCheck, Building2, Anchor, Wheat, Flame, Fish, Plane, ShoppingBag, Smartphone, Shirt } from 'lucide-react';
 
 interface BusinessSectorsProps {
   onOpenQuoteModal: (sectorName?: string) => void;
@@ -17,6 +17,9 @@ export const BusinessSectorsSection: React.FC<BusinessSectorsProps> = ({ onOpenQ
       case 'Anchor': return <Anchor className="w-5 h-5 text-amber-400" />;
       case 'Plane': return <Plane className="w-5 h-5 text-amber-400" />;
       case 'ShoppingBag': return <ShoppingBag className="w-5 h-5 text-amber-400" />;
+      case 'Smartphone': return <Smartphone className="w-5 h-5 text-amber-400" />;
+      case 'Shirt': return <Shirt className="w-5 h-5 text-amber-400" />;
+      case 'Layers': return <Layers className="w-5 h-5 text-amber-400" />;
       default: return <Layers className="w-5 h-5 text-amber-400" />;
     }
   };

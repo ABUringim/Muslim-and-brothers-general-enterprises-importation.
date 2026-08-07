@@ -34,7 +34,7 @@ export const Footer: React.FC = () => {
             </div>
 
             <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
-              Diversified international trading, importation, real estate, construction materials, rice, spices, sardine distribution, and corporate consultancy serving clients across Nigeria, Ghana, and globally.
+              Diversified international trading, importation, dealers of all phones, materials, and textiles, real estate, building materials, rice, spices, sardine distribution, and corporate consultancy serving clients across Nigeria, Ghana, and globally.
             </p>
 
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-amber-400 text-xs font-bold">
@@ -81,6 +81,9 @@ export const Footer: React.FC = () => {
           <div className="lg:col-span-3 space-y-3">
             <h4 className="text-sm font-bold font-serif text-slate-100 uppercase tracking-wider">Core Divisions</h4>
             <ul className="space-y-2 text-xs">
+              <li><a href="#services" className="hover:text-amber-400 transition-colors">Dealers of All Mobile Phones & Devices</a></li>
+              <li><a href="#services" className="hover:text-amber-400 transition-colors">Dealers of All Textiles & Quality Fabrics</a></li>
+              <li><a href="#services" className="hover:text-amber-400 transition-colors">Dealers of All Commercial Materials</a></li>
               <li><a href="#services" className="hover:text-amber-400 transition-colors">Import & Freight Shipping</a></li>
               <li><a href="#services" className="hover:text-amber-400 transition-colors">Building Materials & Steel Rebar</a></li>
               <li><a href="#services" className="hover:text-amber-400 transition-colors">Real Estate & Title Acquisition</a></li>
@@ -88,7 +91,6 @@ export const Footer: React.FC = () => {
               <li><a href="#services" className="hover:text-amber-400 transition-colors">Spices & Culinary Commodities</a></li>
               <li><a href="#services" className="hover:text-amber-400 transition-colors">Canned Sardines Distribution</a></li>
               <li><a href="#services" className="hover:text-amber-400 transition-colors">Travel & Visa Consultancy</a></li>
-              <li><a href="#services" className="hover:text-amber-400 transition-colors">Corporate Procurement Tenders</a></li>
             </ul>
           </div>
 

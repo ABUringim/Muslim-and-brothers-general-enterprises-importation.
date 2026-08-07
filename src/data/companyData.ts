@@ -6,12 +6,12 @@ export const COMPANY_INFO = {
   registrationNumber: "BN 2003703",
   tagline: "Building Strong Partnerships Across Africa and Beyond",
   headline: "Building Strong Partnerships Across Africa and Beyond",
-  subheadline: "Muslim and Brothers General Enterprises is a trusted corporate enterprise specializing in importation, marketing, distribution, real estate, building materials, general supplies, travel consultancy, and international business solutions.",
+  subheadline: "Muslim and Brothers General Enterprises is a trusted corporate enterprise specializing in importation, marketing, distribution, dealers of all phones, materials, and textiles, real estate, building materials, general supplies, travel consultancy, and international business solutions.",
   mainEmail: "muslimandbrothers1222@gmail.com",
   allPhones: {
-    nigeria: ["+234 9073407583", "+234 8033822068", "+234 8031512307"],
+    nigeria: ["+234 9073407583", "+234 8033822068", "+234 8031512307", "+234 8126467399", "+234 8167617243"],
     us: ["+1 9406170970"],
-    ghana: ["+233 591841501", "+233 599319178"]
+    ghana: ["+233 591841501", "+233 599319178", "+233 596008788"]
   },
   primaryWhatsApp: "+2349073407583",
   establishedYear: 2003
@@ -181,6 +181,36 @@ export const SERVICES_DATA: ServiceItem[] = [
     fullDesc: "End-to-end tender fulfillment, office equipment sourcing, industrial safety gear, emergency relief supply, and bulk material provision with strict deadline adherence.",
     keyFeatures: ["Tender & Contract Fulfillment", "Institutional Bulk Purchasing", "Supply Chain Auditing", "Strict Quality Assurance Testing"],
     imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    id: "phones-dealership",
+    title: "Dealers of All Mobile Phones & Devices",
+    category: "textiles_gadgets",
+    iconName: "Smartphone",
+    shortDesc: "Wholesale and retail dealership of all phone brands, smartphones, accessories, and digital gadgets.",
+    fullDesc: "Muslim and Brothers General Enterprises is an authorized corporate dealer of all mobile phones, smartphones, tablets, original device accessories, and telecommunication hardware. Sourcing directly from verified international manufacturers for clients across West Africa.",
+    keyFeatures: ["All Major Mobile Brands & Smartphones", "Original Accessories & Power Bank Units", "Wholesale Bulk Sourcing & Retail Supply", "Warranty Protection & Device Verification"],
+    imageUrl: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    id: "textiles-dealership",
+    title: "Dealers of All Textiles & Quality Fabrics",
+    category: "textiles_gadgets",
+    iconName: "Shirt",
+    shortDesc: "Wholesale dealers and importers of high-grade textiles, brocade, Swiss lace, Ankara, and fashion fabrics.",
+    fullDesc: "Operating at the heart of West Africa's textile trade at Kano's world-famous Kwari Textile Market and internationally, we are wholesale dealers of all high-grade textiles, damask, brocade, cotton Ankara, lace, and industrial fabrics.",
+    keyFeatures: ["Kwari Textile Market Wholesale Depots", "Premium Brocade, Swiss Lace & Ankara", "Industrial & Fashion Fabric Supply", "Custom Bulk Textile Sourcing & Import"],
+    imageUrl: "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    id: "general-materials-dealership",
+    title: "Dealers of All Materials & Commercial Merchandise",
+    category: "procurement",
+    iconName: "Layers",
+    shortDesc: "Stockists and dealers of all industrial raw materials, hardware, commercial supplies, and general merchandise.",
+    fullDesc: "Comprehensive bulk supply and dealership of all commercial, industrial, construction, and general merchandise materials. We facilitate tender fulfillment, custom material sourcing, and wholesale supply for corporate and institutional clients.",
+    keyFeatures: ["Dealers of All Commercial & Industrial Materials", "Custom Hardware & Raw Material Sourcing", "Institutional & Government Tender Fulfillment", "Strict Standards & Quality Compliance"],
+    imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800"
   }
 ];
 
@@ -248,6 +278,30 @@ export const BUSINESS_SECTORS: BusinessSector[] = [
     iconName: "ShoppingBag",
     bgImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800",
     stats: "Full Compliance Certified"
+  },
+  {
+    id: "phones-gadgets-sector",
+    name: "Mobile Phones & Gadgets Dealership",
+    description: "Authorized dealership of all mobile phones, smartphones, original accessories, and digital gadgets.",
+    iconName: "Smartphone",
+    bgImage: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800",
+    stats: "All Top Brands Sourced"
+  },
+  {
+    id: "textiles-fabrics-sector",
+    name: "Textiles & Quality Fabrics Sector",
+    description: "Wholesale dealers in all textiles, brocade, Swiss lace, Ankara, and fashion fabrics across Kwari Market & West Africa.",
+    iconName: "Shirt",
+    bgImage: "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&q=80&w=800",
+    stats: "Kwari Market Wholesale Hub"
+  },
+  {
+    id: "general-materials-sector",
+    name: "Commercial & Industrial Materials",
+    description: "Dealers and stockists of all industrial raw materials, hardware, commercial supplies, and general merchandise.",
+    iconName: "Layers",
+    bgImage: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800",
+    stats: "Bulk Distribution Lines"
   }
 ];
 
@@ -259,9 +313,9 @@ export const LEADERSHIP_TEAM: LeadershipMember[] = [
     department: "executive",
     phones: ["+234 9073407583", "+233 599319178", "+234 8033822068"],
     email: "habibumarusman@gmail.com",
-    bio: "Founding visionary and Chief Executive driving Muslim and Brothers General Enterprises across Nigeria, Ghana, and international trade routes. Expert in corporate strategy and international trade.",
+    bio: "Founding visionary and Chief Executive driving Muslim and Brothers General Enterprises across Nigeria, Ghana, and international trade routes. Direct Ghana SIM: +233 599319178.",
     location: "Kano, Nigeria & Accra, Ghana",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600"
+    image: "https://res.cloudinary.com/dc1betp4m/image/upload/v1786115414/WhatsApp_Image_2026-08-05_at_15.12.34_lnlcjd.jpg"
   },
   {
     id: "ismail-banda",
@@ -272,7 +326,7 @@ export const LEADERSHIP_TEAM: LeadershipMember[] = [
     email: "ismobda2023@mail.com",
     bio: "General Manager overseeing international partnerships, North American strategy, and business growth across West Africa and US trade channels.",
     location: "United States & Ghana",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=600"
+    image: "https://res.cloudinary.com/dc1betp4m/image/upload/v1786115414/WhatsApp_Image_2026-08-05_at_15.13.34_hofghb.jpg"
   },
   {
     id: "zahradeen-abubakar-sadiq",
@@ -283,7 +337,7 @@ export const LEADERSHIP_TEAM: LeadershipMember[] = [
     email: "alhajideeni@gmail.com",
     bio: "Deputy Managing Director ensuring operational oversight, administrative leadership, and strategic cross-sector execution across all company divisions.",
     location: "Kano, Nigeria",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=600"
+    image: "https://res.cloudinary.com/dc1betp4m/image/upload/v1786115413/WhatsApp_Image_2026-08-05_at_15.47.57_ompsu9.jpg"
   },
   {
     id: "nasir-isa",
@@ -294,7 +348,18 @@ export const LEADERSHIP_TEAM: LeadershipMember[] = [
     email: "isahnasir90@gmail.com",
     bio: "Leading corporate branding, market penetration strategies, stakeholder relations, and high-level communications for commercial ventures.",
     location: "Kano, Nigeria",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=600"
+    image: "https://res.cloudinary.com/dc1betp4m/image/upload/v1786115415/WhatsApp_Image_2026-08-05_at_15.26.55_qn6rmq.jpg"
+  },
+  {
+    id: "habib-aminu",
+    name: "Habib Aminu",
+    rank: "Marketing Reps Nigeria and Ghana",
+    department: "marketing",
+    phones: ["+234 8167617243", "+233 596008788"],
+    email: "habeebhabibu5@gmal.com",
+    bio: "Marketing representative leading product distribution, commercial relations, and wholesale expansion across Nigeria and Ghana markets.",
+    location: "Nigeria & Ghana",
+    image: "https://res.cloudinary.com/dc1betp4m/image/upload/v1786115415/WhatsApp_Image_2026-08-06_at_09.25.25_mds8cj.jpg"
   },
   {
     id: "auwal-muhammad",
@@ -305,7 +370,7 @@ export const LEADERSHIP_TEAM: LeadershipMember[] = [
     email: "auwalmkano@gmail.com",
     bio: "Head of property agency, title verifications, estate development, and commercial land investments in Kano and surrounding commercial corridors.",
     location: "Kano, Nigeria",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600"
+    image: "https://res.cloudinary.com/dc1betp4m/image/upload/v1786115414/WhatsApp_Image_2026-08-05_at_15.40.55_rj4ap8.jpg"
   },
   {
     id: "abubakar-barau-abdullahi",
@@ -316,7 +381,7 @@ export const LEADERSHIP_TEAM: LeadershipMember[] = [
     email: "muslimandbrothers1222@gmail.com",
     bio: "Advisory Board Director specializing in corporate governance, institutional consultation, and high-stakes trade negotiations.",
     location: "Nigeria & International",
-    image: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=600"
+    image: "https://res.cloudinary.com/dc1betp4m/image/upload/v1786115414/WhatsApp_Image_2026-08-05_at_16.33.34_o0yxtd.jpg"
   },
   {
     id: "nura-sulaiman",
@@ -327,7 +392,7 @@ export const LEADERSHIP_TEAM: LeadershipMember[] = [
     email: "nurasulaiman145@gmail.com",
     bio: "Key commercial representative managing distributor relations, wholesale sales channels, and product marketing across regional centers.",
     location: "Kano, Nigeria",
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=600"
+    image: "https://res.cloudinary.com/dc1betp4m/image/upload/v1786115414/WhatsApp_Image_2026-08-05_at_15.14.16_b5clxr.jpg"
   },
   {
     id: "aminu-datti-sani",
@@ -338,7 +403,18 @@ export const LEADERSHIP_TEAM: LeadershipMember[] = [
     email: "aminudatti95@gmail.com",
     bio: "Direct field leader managing wholesale accounts at Kano's world-famous Kwari Textile & Singers Commodities market centers.",
     location: "Singers & Kwari Market, Kano",
-    image: "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&q=80&w=600"
+    image: "https://res.cloudinary.com/dc1betp4m/image/upload/v1786115415/WhatsApp_Image_2026-08-06_at_05.30.35_srwyy6.jpg"
+  },
+  {
+    id: "maryam-abubakar",
+    name: "Maryam Abubakar",
+    rank: "Executive & Operations Officer",
+    department: "operations",
+    phones: ["+234 8126467399"],
+    email: "hajiamaryamabk2000@gmail.com",
+    bio: "Executive officer coordinating corporate operations, client relations, administrative workflow, and division communication.",
+    location: "Kano Head Office",
+    image: "https://res.cloudinary.com/dc1betp4m/image/upload/v1786115415/WhatsApp_Image_2026-08-06_at_09.24.34_bevvee.jpg"
   },
   {
     id: "auwal-bashir",
@@ -349,7 +425,7 @@ export const LEADERSHIP_TEAM: LeadershipMember[] = [
     email: "aburingim1997@gmail.com",
     bio: "Architect of company digital systems, cloud management, portal infrastructure, and modern business technology deployment.",
     location: "Kano, Nigeria",
-    image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=600"
+    image: "https://res.cloudinary.com/dc1betp4m/image/upload/v1786116013/dcd238650759965ffe42963172a07872_0_iqzmtx.jpg"
   },
   {
     id: "halima-bala-khamis",
@@ -360,7 +436,7 @@ export const LEADERSHIP_TEAM: LeadershipMember[] = [
     email: "imanummi132@gmail.com",
     bio: "Executive desk coordinator handling client communications, documentation, corporate schedules, and official correspondence.",
     location: "Kano Head Office",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=600"
+    image: "https://res.cloudinary.com/dc1betp4m/image/upload/v1786115413/WhatsApp_Image_2026-08-05_at_15.54.02_do4vx0.jpg"
   },
   {
     id: "abdullahi-umar-usman",
@@ -368,10 +444,10 @@ export const LEADERSHIP_TEAM: LeadershipMember[] = [
     rank: "Brand Ambassador",
     department: "marketing",
     phones: ["+234 8068719811"],
-    email: "abdullahiumarusman1335@gmail.com",
+    email: "Abdullahiumarusm9811@gmail.com",
     bio: "Official Brand Ambassador advocating company values, community engagement, and strategic brand visibility.",
     location: "Nigeria",
-    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=600"
+    image: "https://res.cloudinary.com/dc1betp4m/image/upload/v1786115414/WhatsApp_Image_2026-08-05_at_16.35.24_opnw08.jpg"
   }
 ];
 
@@ -404,7 +480,7 @@ export const OFFICE_LOCATIONS: OfficeLocation[] = [
       "Accra, Ghana"
     ],
     landmark: "Near Preointa Street, Abokobi, Greater Accra",
-    phones: ["+233 591841501", "+233 599319178"],
+    phones: ["+233 591841501", "+233 599319178", "+233 596008788"],
     email: "ismobda2023@mail.com",
     googleMapUrl: "https://maps.google.com/?q=Abokobi+Accra+Ghana",
     embedMapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.0!2d-0.2!3d5.75!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sAbokobi%2C%20Accra%2C%20Ghana!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s",

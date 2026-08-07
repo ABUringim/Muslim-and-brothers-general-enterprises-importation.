@@ -7,10 +7,12 @@ export const FloatingWhatsApp: React.FC = () => {
 
   const quickOptions = [
     { label: "General Business Inquiry", query: "Hello Muslim and Brothers, I have a general corporate inquiry." },
+    { label: "Mobile Phones & Gadgets Dealership", query: "Hello, I want to inquire about bulk/retail prices for mobile phones and gadgets." },
+    { label: "Textiles & Quality Fabrics Inquiry", query: "Hello, I want to inquire about textiles, lace, and Kwari market fabrics." },
+    { label: "Commercial & Industrial Materials", query: "Hello, I am looking for general commercial and industrial materials supply." },
     { label: "Rice Supply Inquiry (50kg)", query: "Hello, I want to inquire about bulk 50kg Rice Supply prices." },
     { label: "Real Estate & Property Agency", query: "Hello, I am interested in property acquisition/agency in Kano/Accra." },
-    { label: "Building Materials & Steel Rebar", query: "Hello, I would like a quote for construction building materials." },
-    { label: "Travel Consultancy & Visa Desk", query: "Hello, I need assistance with travel consultancy and visa processing." }
+    { label: "Building Materials & Steel Rebar", query: "Hello, I would like a quote for construction building materials." }
   ];
 
   const handleOpenWhatsApp = (text: string) => {

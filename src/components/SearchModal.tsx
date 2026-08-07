@@ -47,7 +47,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose, onOpe
           <input
             type="text"
             autoFocus
-            placeholder="Search services, rice supply, leadership, offices, real estate..."
+            placeholder="Search services, mobile phones, textiles, materials, rice supply, real estate..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             className="w-full bg-transparent text-slate-100 placeholder-slate-500 text-sm sm:text-base focus:outline-none"
@@ -62,7 +62,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose, onOpe
           <div className="py-8 text-center space-y-2">
             <p className="text-xs text-slate-400">Type keywords to search across Muslim and Brothers General Enterprises portal.</p>
             <div className="flex flex-wrap justify-center gap-2 pt-2">
-              {['Rice Supply', 'Habib Umar Usman', 'Building Materials', 'Ghana Office', 'Sardines', 'Travel Consultancy'].map((k, i) => (
+              {['Phones & Gadgets', 'Textiles & Kwari Fabrics', 'General Materials', 'Rice Supply', 'Habib Umar Usman', 'Building Materials', 'Ghana Office', 'Sardines'].map((k, i) => (
                 <button
                   key={i}
                   onClick={() => setQuery(k)}

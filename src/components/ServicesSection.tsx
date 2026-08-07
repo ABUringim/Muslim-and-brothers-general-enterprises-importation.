@@ -4,7 +4,7 @@ import { ServiceItem } from '../types';
 import { 
   Ship, Share2, HardHat, Building2, Wheat, Flame, Fish, 
   PlaneTakeoff, Briefcase, ShoppingBag, ArrowRight, CheckCircle2,
-  FileText, Sparkles, Filter, X
+  FileText, Sparkles, Filter, X, Smartphone, Shirt, Layers
 } from 'lucide-react';
 
 interface ServicesSectionProps {
@@ -18,6 +18,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenQuoteMod
   const categories = [
     { id: 'all', label: 'All Services' },
     { id: 'import_export', label: 'Import & Logistics' },
+    { id: 'textiles_gadgets', label: 'Phones, Textiles & Materials' },
     { id: 'real_estate', label: 'Real Estate & Construction' },
     { id: 'commodities', label: 'Rice, Spices & Seafood' },
     { id: 'consultancy', label: 'Travel & Consultancy' },
@@ -40,6 +41,9 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenQuoteMod
       case 'PlaneTakeoff': return <PlaneTakeoff className="w-6 h-6 text-amber-400" />;
       case 'Briefcase': return <Briefcase className="w-6 h-6 text-amber-400" />;
       case 'ShoppingBag': return <ShoppingBag className="w-6 h-6 text-amber-400" />;
+      case 'Smartphone': return <Smartphone className="w-6 h-6 text-amber-400" />;
+      case 'Shirt': return <Shirt className="w-6 h-6 text-amber-400" />;
+      case 'Layers': return <Layers className="w-6 h-6 text-amber-400" />;
       default: return <Briefcase className="w-6 h-6 text-amber-400" />;
     }
   };

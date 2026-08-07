@@ -140,6 +140,9 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({ isOpen, onClose, presele
                   onChange={(e) => setFormData({ ...formData, sector: e.target.value })}
                   className="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-slate-100 focus:outline-none focus:border-amber-500/60"
                 >
+                  <option value="Dealers of All Mobile Phones & Gadgets">Dealers of All Phones & Gadgets</option>
+                  <option value="Dealers of All Textiles & Fabrics">Dealers of All Textiles & Fabrics</option>
+                  <option value="Dealers of All Commercial & Industrial Materials">Dealers of All Commercial Materials</option>
                   <option value="Rice Supply (50kg Bags)">Rice Supply & Grain Sacks (50kg)</option>
                   <option value="Building Materials & Steel">Building Materials, Steel & Rebar</option>
                   <option value="Real Estate Acquisition">Real Estate & Land Acquisition</option>

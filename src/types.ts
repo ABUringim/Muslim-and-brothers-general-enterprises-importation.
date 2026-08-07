@@ -13,7 +13,7 @@ export interface LeadershipMember {
 export interface ServiceItem {
   id: string;
   title: string;
-  category: 'import_export' | 'real_estate' | 'commodities' | 'consultancy' | 'procurement';
+  category: 'import_export' | 'real_estate' | 'commodities' | 'consultancy' | 'procurement' | 'textiles_gadgets';
   iconName: string;
   shortDesc: string;
   fullDesc: string;
