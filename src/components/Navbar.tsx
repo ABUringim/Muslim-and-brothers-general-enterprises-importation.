@@ -116,7 +116,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal, onOpenSearchMo
                   Muslim & Brothers
                 </span>
                 <span className="block text-[10px] tracking-widest text-slate-400 font-semibold uppercase">
-                  General Enterprises • BN 2003703
+                  General Enterprises • {COMPANY_INFO.registrationNumber}
                 </span>
               </div>
             </a>
