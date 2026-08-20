@@ -32,7 +32,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuoteModal }) => {
             {/* Trust Pill Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/90 border border-amber-500/30 text-amber-300 text-xs font-semibold shadow-lg backdrop-blur-md">
               <ShieldCheck className="w-4 h-4 text-amber-400" />
-              <span>BN 2003703 • Certified Commercial Enterprise</span>
+              <span>{COMPANY_INFO.registrationNumber} • Certified Commercial Enterprise</span>
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping ml-1" />
             </div>
 

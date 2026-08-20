@@ -7,7 +7,7 @@ import {
 export const StrengthsSection: React.FC = () => {
   const metrics = [
     {
-      value: "BN 2003703",
+      value: COMPANY_INFO.registrationNumber,
       label: "Business Registration",
       desc: "Fully verified commercial entity",
       icon: FileCheck

@@ -24,7 +24,7 @@ export const AboutSection: React.FC = () => {
             A Diversified Pillar of <span className="gold-gradient-text">International Commerce</span>
           </h2>
           <p className="text-slate-300 text-base sm:text-lg leading-relaxed">
-            Registered under Business Name <strong>BN 2003703</strong>, Muslim and Brothers General Enterprises operates as a leading corporate entity spanning West Africa and global trade hubs.
+            Registered under Business Name <strong>{COMPANY_INFO.registrationNumber}</strong>, Muslim and Brothers General Enterprises operates as a leading corporate entity spanning West Africa and global trade hubs.
           </p>
         </div>
 

@@ -3,7 +3,7 @@ import { LeadershipMember, ServiceItem, BusinessSector, OfficeLocation, StatItem
 export const COMPANY_INFO = {
   name: "Muslim and Brothers General Enterprises",
   shortName: "Muslim & Brothers",
-  registrationNumber: "BN 2003703",
+  registrationNumber: "BN 3972527",
   tagline: "Building Strong Partnerships Across Africa and Beyond",
   headline: "Building Strong Partnerships Across Africa and Beyond",
   subheadline: "Muslim and Brothers General Enterprises is a trusted corporate enterprise specializing in importation, marketing, distribution, dealers of all phones, materials, and textiles, real estate, building materials, general supplies, travel consultancy, and international business solutions.",

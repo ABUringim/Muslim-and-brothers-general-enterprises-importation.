@@ -120,7 +120,7 @@ export const Footer: React.FC = () => {
         {/* Copyright & Scroll-To-Top */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <div>
-            © 2026 Muslim and Brothers General Enterprises (BN 2003703). All Rights Reserved.
+            © 2026 Muslim and Brothers General Enterprises ({COMPANY_INFO.registrationNumber}). All Rights Reserved.
           </div>
 
           <div className="flex items-center gap-4">

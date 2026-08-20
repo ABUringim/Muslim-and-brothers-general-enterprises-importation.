@@ -57,7 +57,7 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({ isOpen, onClose, presele
           </div>
           <div>
             <span className="text-[10px] font-bold uppercase tracking-wider text-amber-400 block">
-              Official Request • BN {COMPANY_INFO.registrationNumber}
+              Official Request • {COMPANY_INFO.registrationNumber}
             </span>
             <h3 className="text-xl font-bold font-serif text-slate-100">Corporate Quotation Request</h3>
           </div>
